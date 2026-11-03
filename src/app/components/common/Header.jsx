@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 
 export default function Header() {
@@ -6,8 +7,8 @@ export default function Header() {
     <div>
       <nav className="bg-neutral-primary  w-full z-20 top-0 start-0 border-b border-default">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
-            href="https://flowbite.com/"
+          <Link
+            href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
@@ -18,7 +19,7 @@ export default function Header() {
             <span className="self-center text-xl text-heading font-semibold whitespace-nowrap">
               FirstApp
             </span>
-          </a>
+          </Link>
           <button
             data-collapse-toggle="navbar-default"
             type="button"
@@ -47,45 +48,45 @@ export default function Header() {
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
               <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
+                <Link
+                  href="/"
+                  className="block py-2 px-3 bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
                   aria-current="page"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/about-us"
                   className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/products"
                   className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
                 >
-                  Services
-                </a>
+                  Products
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/pricing"
                   className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
                 >
                   Pricing
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/contact"
                   className="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
