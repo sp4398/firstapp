@@ -1,9 +1,10 @@
 import React from 'react'
+import Latest from '../components/home-components/Latest'
 
 export default function Products() {
   return (
     <div>
-      <h1 className='text-3xl font-bold text-center my-8'>Products</h1>
+      <Latest/>
     </div>
   )
 }
