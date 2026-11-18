@@ -16,7 +16,7 @@ export default function Footer() {
                 alt="Flowbite Logo"
               />
               <span className="text-heading self-center text-2xl font-semibold whitespace-nowrap">
-                FirstApp
+                GS Real Estate
               </span>
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-body sm:mb-0">
@@ -44,9 +44,9 @@ export default function Footer() {
           </div>
           <hr className="my-6 border-default sm:mx-auto lg:my-8" />
           <span className="block text-sm text-body sm:text-center">
-            © 2023{" "}
+            © 2026{" "}
             <a href="https://flowbite.com/" className="hover:underline">
-              FirstApp™
+              GS Real Estate™
             </a>
             . All Rights Reserved.
           </span>
